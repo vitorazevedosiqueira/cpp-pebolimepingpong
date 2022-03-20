@@ -1,0 +1,122 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Norican&family=Vampiro+One&display=swap');
+@font-face
+
+{
+    font-family:'Tequilla';
+    src: url('Tequilla Sunrise.ttf') format('truetype');
+
+}
+:root
+{
+    --cor1:#E6F1F2;
+    --cor2:#2F346B;
+    --cor3:#0F176B;
+
+    --font-titulo:'Tequilla','Norican';
+    --font-destaque: 'Lexend Deca';
+
+}
+body
+{
+    background-color:black;
+}
+h1
+{
+    font-family:var(--font-titulo) ;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 40px;
+    padding-left: 10px;
+    color: white;
+}
+.foto
+{
+    margin: auto;
+    padding-top: 100px;
+    display: block;
+    
+}
+h2
+{
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 20px;
+    color: white;
+    
+    
+}
+.titulo
+{
+    width: 60px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: white;
+
+
+}
+h4
+{
+    text-indent: 50px;
+    font-family: var(--font-destaque);
+    color:white;
+}
+abbr
+{
+    text-decoration-line: none;
+    color: #2F346B;
+    
+}
+abbr:hover
+{
+    
+    text-decoration: underline 2px white;
+
+}
+main
+{
+    text-align: center;
+}
+div
+{
+    display: inline;
+    padding-right: 77px;
+    
+}
+a
+{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-destaque);
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover
+{
+    text-decoration: underline 2px white;
+}
+h4#cor
+{
+    color: var(--cor2);
+}
+
+header
+{
+    text-align: center;
+}
+nav
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px )
+{
+
+    
+}

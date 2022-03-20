@@ -1,0 +1,239 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Norican&family=Vampiro+One&display=swap');
+@font-face 
+
+{
+    font-family:'Tequilla';
+    src: url('Tequilla Sunrise.ttf') format('truetype');
+
+}
+:root
+{
+    --cor1:#E6F1F2;
+    --cor2:#2F346B;
+    --cor3:#0F176B;
+
+    --font-titulo:'Tequilla','Norican';
+    --font-destaque: 'Lexend Deca';
+
+}
+body
+{
+    background-color: var(--cor1);
+    margin: 0px;
+    
+    
+    
+    
+}
+h1
+{
+    
+    font-size: 35px;
+    border-radius: 7px;
+    color:black;
+    text-align: center;
+    font-family:var(--font-titulo);
+    margin: auto;
+    
+}
+main picture
+{
+    
+    margin: auto;
+}
+picture>img
+{
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    display: flex;
+}
+h2
+{
+    text-align: center;
+    color:black;
+    font-family:var(--font-destaque);
+
+    
+}
+aside
+{
+    
+    background-color: var(--cor3);
+    min-width: 300px;
+    max-width: 2500px;
+    
+    
+    
+    
+}
+div
+{
+    
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    height: 4em;
+    width: 12em;
+    border: 100em;
+    padding-left: 2em;
+    padding-right: 2em;
+   
+
+}
+div#titulo
+{
+    width: 60px;
+    position:absolute;
+    top: 0;
+    left: 0;
+
+
+    
+
+
+}
+.sublin:hover
+{
+    text-decoration: none;
+}
+a:hover
+{
+
+    text-decoration: underline 3px black;
+}
+a#titulo
+{
+    text-decoration: none;
+}
+abbr
+{
+    text-decoration: none;
+}
+h3
+{
+    font-family:var(--font-destaque);
+    text-align: center;
+}
+div#espaço
+{
+    padding-left: 100px;
+}
+p
+{
+    text-align: center;
+    text-indent: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5em;
+    
+}
+header
+{
+    margin: auto;
+    min-width: 290px;
+    max-width: 852px;
+}
+a
+{
+    font-family:var(--font-destaque);
+    color: black;
+    text-decoration: none;
+    
+}
+.fundadores
+{
+    background-color: var(--cor2);
+    border-radius: 100px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.61) 3px 3px 10px;
+    text-align: center;
+    max-width: 500px;
+    min-width: 290px;
+    margin: auto;
+
+
+}
+.disc
+{
+    margin: auto;
+    min-width: 27px;
+    max-width: 33px;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+ul
+{
+    list-style-position: inside;
+    columns: 2;
+    margin: auto;
+    font-size: 15px;
+    font-family:var(--font-destaque);
+    
+}
+li
+{
+    padding-top: 12px;
+}
+@media screen and (max-width:860px)
+{
+
+    .encolher
+    {
+      margin: auto;
+      width: 30px;
+      padding-top: 15px;
+      
+    
+      
+    }
+    .juntar
+    {
+        padding: 0px;
+        min-width: 27px;
+        max-width: 50px;
+        padding-right:30px;
+        font-size: 0px;
+        
+        
+        
+    }
+    div#titulo
+    {
+        width: 60px;
+        font-size: 0px;
+        
+    }
+    nav
+    {
+        
+        margin: auto;
+        text-align: center;
+        min-width: 300px;
+        max-width: 800px;
+        
+    }
+    .tt
+    {
+        padding-top:5px;
+        font-size: 30px;
+    
+    }
+    header
+    {
+        margin: auto;
+        min-width: 290px;
+        max-width: 800px;
+    }
+    div#espaço
+    {
+        padding-left: 60px;
+    }
+    abbr img
+    {
+        width: 50px;
+    }
+    
+}
