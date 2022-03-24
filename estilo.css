@@ -237,3 +237,13 @@ li
     }
     
 }
+@media screen and (max-width:450px)
+{
+    ul
+    {
+        list-style-position: inside;
+        columns: 1;
+        margin: auto;
+    }
+
+}

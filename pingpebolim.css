@@ -127,6 +127,10 @@ li
 {
     padding-top: 12px;
 }
+ul
+{
+    padding-left: 40px;
+}
 @media screen and (max-width:900px)
 {
     table,th,td
@@ -182,7 +186,7 @@ li
     {
         padding: 5px;
         font-size: 0px;
-        padding-left: 40px;
+        padding-left: 35px;
         padding-right: 0px;
     }
     h1
@@ -192,7 +196,7 @@ li
     }
     .esp
     {
-        padding-left: 90px;
+        padding-left: 80px;
     }
     h1#t1
     {
@@ -204,5 +208,6 @@ li
         list-style-position: inside;
         columns: 1;
         margin: auto;
+        padding-left: 20px;
     }
 }
