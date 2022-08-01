@@ -1,7 +1,6 @@
 @charset "UTF8";
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Norican&family=Vampiro+One&display=swap');
 @font-face 
-
 {
     font-family:'Tequilla';
     src: url('Tequilla Sunrise.ttf') format('truetype');
@@ -9,9 +8,9 @@
 }
 :root
 {
-    --cor1:#E6F1F2;
-    --cor2:#2F346B;
-    --cor3:#0F176B;
+    --cor1:#b05420;
+    --cor2:#DC7703;
+    --cor3:#ffff;
 
     --font-titulo:'Tequilla','Norican';
     --font-destaque: 'Lexend Deca';
@@ -19,8 +18,12 @@
 }
 body
 {
-    background-color: var(--cor1);
     margin: 0px;
+    margin-top: 15px;
+    background-color: var(--cor1);
+    
+    
+    
     
     
     
@@ -35,32 +38,98 @@ h1
     text-align: center;
     font-family:var(--font-titulo);
     margin: auto;
+    margin-top: 15px;
     
 }
-main picture
+hr
 {
-    
-    margin: auto;
+    margin-bottom: 0px;
 }
-picture>img
+.imagem
 {
-    margin: auto;
-    min-width: 300px;
-    max-width: 800px;
-    display: flex;
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    
+    padding-top: 3vh;
+    font-family: var(--font2);
+    font-size: 3.2vw;
+    height: 60vh;
+}
+section#img1
+{
+    background-image: url(imagens/geral3.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h3
+{
+    text-align: center;
+    color:black;
+    font-family:var(--font-destaque);
+    margin-top: 40px;
+    font-family:var(--font-destaque);
+    text-align: center;
+
+    
 }
 h2
 {
     text-align: center;
     color:black;
     font-family:var(--font-destaque);
+    margin-top: 0px;
 
     
+}
+section > h2
+{
+    color: bisque;
+    font-family: var(--font2);
+    font-size: 22px;
+}
+section > h4
+{
+    color: bisque;
+    font-family: var(--font2);
+    font-size: 15px;
+}
+main
+{
+    background-color:var(--cor3);
+}
+.f
+{
+    
+}
+h4
+{
+    text-align: center;
+    color:black;
+    font-family:var(--font-destaque);
+    margin-top: 0px;
+
+    
+}
+h5
+{
+    background-color: #3f2210af;
+    background-size: 20px 30px;
+}
+h6
+{
+    text-align: center;
+    margin-block-start: 2px;
+    font-size: 9px;
+    font-family: var(--font-destaque);
+
 }
 aside
 {
     
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     min-width: 300px;
     max-width: 2500px;
     
@@ -94,6 +163,44 @@ div#titulo
 
 
 }
+span
+{
+    bottom: 0;
+    padding: 20px 10px;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #dc7703cc;
+}
+section.ganhadores
+{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+div.quadrado
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 240px;
+    border-radius: 0px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+div#larissa
+{
+    background-image: url(imagens/larissa.png);
+}
+div#henrique
+{
+    background-image: url(imagens/henrique.png);
+}
 .sublin:hover
 {
     text-decoration: none;
@@ -111,10 +218,9 @@ abbr
 {
     text-decoration: none;
 }
-h3
+a#parti:hover
 {
-    font-family:var(--font-destaque);
-    text-align: center;
+    text-decoration: none;
 }
 div#espaço
 {
@@ -156,8 +262,13 @@ a
     max-width: 500px;
     min-width: 290px;
     margin: auto;
+    
 
 
+}
+.fund
+{
+    padding-top: 40px;
 }
 .disc
 {
@@ -184,14 +295,19 @@ li
 @media screen and (max-width:860px)
 {
 
-    .encolher
+    section#img1
     {
       margin: auto;
-      width: 30px;
       padding-top: 15px;
+      background-image: url(imagens/geral3.png);
+      
       
     
       
+    }
+    img
+    {
+        
     }
     .juntar
     {
@@ -221,7 +337,7 @@ li
     }
     .tt
     {
-        padding-top:5px;
+        
         font-size: 30px;
     
     }
@@ -239,6 +355,13 @@ li
     {
         width: 50px;
     }
+    section.ganhadores 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
     
 }
 @media screen and (max-width:450px)
@@ -249,6 +372,15 @@ li
         columns: 1;
         margin: auto;
         padding-left: 20px;
+    }
+    section#img1
+    {
+        background-image: url(imagens/geral7.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: auto;
+        height: 150px;
     }
 
 }

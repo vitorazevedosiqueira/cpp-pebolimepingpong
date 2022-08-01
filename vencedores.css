@@ -1,0 +1,252 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Norican&family=Vampiro+One&display=swap');
+@font-face
+{
+    font-family:'Tequilla';
+    src: url('Tequilla Sunrise.ttf') format('truetype');
+
+}
+:root
+{
+    --cor1:#DC7703;
+    --cor2:#2F346B;
+    --cor3:#b05420;
+
+    --font-titulo:'Tequilla','Norican';
+    --font-destaque: 'Lexend Deca';
+
+}
+header
+{
+    background-color: var(--cor1);
+}
+body
+{
+    margin: 0%;
+}
+h1
+{
+    font-family:var(--font-titulo) ;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 40px;
+    padding-left: 10px;
+    color: bisque;
+}
+a
+{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-destaque);
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    
+}
+div
+{
+     
+    padding-top: 40px;
+  
+}
+h2
+{
+    font-size: 50px;
+    font-family: var(--font-destaque);
+    font-weight: lighter
+   
+ 
+}
+strong
+{
+    font-size: 25px;
+    font-family: var(--font-destaque);
+    display: block;
+    
+}
+.tempo
+{
+   padding-left: 0px;
+   padding-right: 15px;
+   font-size: 40px;
+    
+}
+.foto
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.alinhamento
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: bisque;
+}
+.nasc
+{
+    background-color:var(--cor3);
+    display: flex;
+    height: 75px;
+    padding-top: 0px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+.h
+{
+    
+    padding-top: 0px;
+}
+.tempoh
+{ 
+    font-size: 40px;
+    padding-left: 0px;
+    padding-right: 70px;
+}
+nav
+{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    background-color: var(--cor1);
+}
+a:hover
+{
+    text-decoration: underline 2px white;
+}
+dd
+{
+    padding-top: 5px;
+    font-size: 10px;
+    color: bisque;
+    font-family: var(--font-destaque);
+}
+.info
+{
+    padding-top: 10px;
+    text-align: start;
+}
+.data
+{
+    color: white;
+    font-size: 13px;
+}
+.biografia
+{
+   margin-left: 80px;
+   margin-right: 80px;
+   
+}
+.biografiadado
+{
+    padding-top: 20px;
+    
+}
+h2#tb
+{
+    font-size: 26px;
+}
+.partidas
+{
+    font-size: 14px;
+    color: #666666;
+}
+.result
+{
+    color: black;
+}
+.bola
+{
+    height: 75px;
+    width: 39px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h6
+{
+    font-size: 13px;
+    color: #666666;
+    margin: 0px;
+    margin-right: 2px;
+}
+@media screen and (max-width:816px)
+{
+    .alinhamento
+    {
+        display: block;
+        background-color: black;
+    }
+    .foto {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: stretch
+    }
+    .h
+    {
+        padding-left: 0px;
+    }
+    .tempoh
+    {
+        padding-right: 0px;
+    }
+    div
+    {
+        padding-bottom: 10px;
+        padding-top: 0px;
+        text-align: left;
+        
+    }
+    h2
+    {
+        margin-block: auto;
+        color: white;
+        font-size: 28px;
+        padding-left: 15px;
+    }
+    strong
+    {
+        font-size: 16px;
+        padding-left: 0px;
+    }
+    .tempoh
+    {
+        font-size: 23px;
+    }
+    .nasc
+    {
+        height: 120px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    dd
+    {
+        margin-left: 15px ;
+    }
+    .biografia
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h2#tb
+    {
+        font-size: 20px;
+        color: black;
+        padding-left: 0px;
+        margin: 21px 0px 21px 0px;
+        
+    }
+    h6
+    {
+        color: white;
+    }
+}

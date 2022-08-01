@@ -9,9 +9,9 @@
 }
 :root
 {
-    --cor1:#E6F1F2;
-    --cor2:#2F346B;
-    --cor3:#0F176B;
+    --cor1:#b05420;
+    --cor2:#DC7703;
+    --cor3:#ffff;
 
     --font-titulo:'Tequilla','Norican';
     --font-destaque: 'Lexend Deca';
@@ -19,8 +19,10 @@
 }
 body
 {
+    
     background-color: var(--cor1);
     margin: 0%;
+    
     
 }
 h1
@@ -33,7 +35,10 @@ h2
 {
     font-family: var(--font-destaque);
     text-align: center;
-    padding-top: 65px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: unset;
+    background-image: url("imagens/pattern004.png");
 }
 table,th,td
 {
@@ -50,12 +55,14 @@ table,th,td
 th
 {
     background-color:#73758b;
+    background-image: url("imagens/tabela1.jpg");
 }
 h3
 {
     font-family: var(--font-destaque);
     text-align: center;
     padding-top: 30px;
+    margin: unset;
 }
 .png
 {
@@ -72,12 +79,16 @@ a:hover
 {
     text-decoration: underline 3px black;
 }
+main > a
+{
+    color: darkred;
+}
 div
 {
     display: inline-block;  
     padding-left: 7em;
     padding-right: 5em;
-    
+    padding-bottom: 15px;
 }
 header
 {
@@ -114,6 +125,7 @@ section
 {
     font-family: var(--font-destaque);
     padding-bottom: 20px;
+    background-color: var(--cor2);
   
 
 }
@@ -123,6 +135,10 @@ ul
     columns: 2;
     margin: auto;
 }
+article > h3
+{
+    background-color: var(--cor2);
+}
 li
 {
     padding-top: 12px;
@@ -130,6 +146,16 @@ li
 ul
 {
     padding-left: 40px;
+}
+main
+{
+    text-align: center;
+    background-image: url("imagens/pattern004.png");
+    padding-bottom: 60px;
+}
+hr
+{
+    margin: unset;
 }
 @media screen and (max-width:900px)
 {
@@ -184,10 +210,7 @@ ul
 {
     div
     {
-        padding: 5px;
-        font-size: 0px;
-        padding-left: 35px;
-        padding-right: 0px;
+
     }
     h1
     {
@@ -196,12 +219,13 @@ ul
     }
     .esp
     {
-        padding-left: 80px;
+    
     }
     h1#t1
     {
         padding-top: 15px;
         font-size: 20px;
+        contain: strict
     }
     ul
     {
