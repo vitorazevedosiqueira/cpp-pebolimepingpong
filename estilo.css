@@ -286,12 +286,15 @@ ul
     margin: auto;
     font-size: 15px;
     font-family:var(--font-destaque);
+    padding-bottom: 40px;
     
 }
 li
 {
     padding-top: 12px;
+    
 }
+
 @media screen and (max-width:860px)
 {
 

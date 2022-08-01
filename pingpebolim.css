@@ -38,7 +38,7 @@ h2
     padding-top: 50px;
     padding-bottom: 50px;
     margin: unset;
-    background-image: url("imagens/pattern004.png");
+    background-color:bisque;
 }
 table,th,td
 {
@@ -150,7 +150,7 @@ ul
 main
 {
     text-align: center;
-    background-image: url("imagens/pattern004.png");
+    background-color:bisque;
     padding-bottom: 60px;
 }
 hr
